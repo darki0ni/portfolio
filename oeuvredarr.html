@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Oeuvre Darr</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js" integrity="sha512-rMaqGbYalDaQz0lWNF2L8DHPtf4NW+gSZomExS0LcsNyRS4Rmj21+dt97XfXCZE/E569eX72Bh//Jt1EpStgiA==" crossorigin="anonymous">
+    </script>
+  </head>
+  <body>
+    <script>
+        function setup() {
+    createCanvas(800, 600);
+    background('black');
+    }
+  
+        function draw() {
+            if (mouseIsPressed) {
+                let couleur_particules = color('white');
+                let taille = (5);
+                stroke('white');
+                fill(couleur_particules);
+                ellipse(mouseX,mouseY, taille, taille);
+            }
+            
+            if (keyIsPressed) {
+            clear();
+            background('black');
+        }
+    }
+    </script>
+  </body>
+</html>
