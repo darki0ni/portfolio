@@ -6,8 +6,6 @@ bin-release/
 
 # Other files and folders
 .settings/
-.node_modules/
-.vendor/
 
 # Executables
 *.swf
@@ -20,3 +18,5 @@ bin-release/
 # information for Eclipse / Flash Builder.
 
 mail.php
+node_modules/
+vendor/
