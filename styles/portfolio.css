@@ -749,7 +749,6 @@ canvas {
   aspect-ratio: auto 517 / 513;
 }
 
-/* 1792x828px at 326ppi */
 @media only screen 
     and (max-width: 700px) {
       .header {
@@ -889,7 +888,7 @@ h1 #amdn {
 
 .toolbox {
   margin-left: 43px;
-
+  justify-content: center;
   margin-bottom: 20px;
   width: 365px;
 }
